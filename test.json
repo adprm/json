@@ -14,18 +14,18 @@
         }
     },
     {
-        "nama": "Aditiya",
-        "umur": 19,
-        "npm": "12345678",
-        "lulus": false,
+        "nama": "Permana",
+        "umur": 20,
+        "npm": "87654321",
+        "lulus": true,
         "hobi": [
-            "coding",
-            "gaming",
+            "jogging",
+            "travelling",
             "futsal"
         ],
         "doses": {
-            "dosen1": "Anggra",
-            "dosen2": "Adiat"
+            "dosen1": "Evy",
+            "dosen2": "Binanda"
         }
     }
 ]
