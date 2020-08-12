@@ -1,0 +1,31 @@
+[{
+        "nama": "Aditiya",
+        "umur": 19,
+        "npm": "12345678",
+        "lulus": false,
+        "hobi": [
+            "coding",
+            "gaming",
+            "futsal"
+        ],
+        "doses": {
+            "dosen1": "Anggra",
+            "dosen2": "Adiat"
+        }
+    },
+    {
+        "nama": "Aditiya",
+        "umur": 19,
+        "npm": "12345678",
+        "lulus": false,
+        "hobi": [
+            "coding",
+            "gaming",
+            "futsal"
+        ],
+        "doses": {
+            "dosen1": "Anggra",
+            "dosen2": "Adiat"
+        }
+    }
+]
