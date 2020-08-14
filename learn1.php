@@ -21,7 +21,7 @@ $db->execute();
 
 $student = $db->fetchAll(PDO::FETCH_ASSOC);
 
-$data = json_encode($mahasiswa);
+$data = json_encode($student);
 echo $data;
 
 ?>
