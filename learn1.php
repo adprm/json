@@ -16,6 +16,10 @@
 $dbh = new PDO('mysql:host=localhost;dbname=crud-ci3', 'root');
 
 $db = $dbh->prepare('SELECT * FROM student');
+// run query
+$db->execute();
+
+$student = $db->fetchAll(PDO::FETCH_ASSOC);
 
 $data = json_encode($mahasiswa);
 echo $data;
