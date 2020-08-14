@@ -16,3 +16,6 @@ xhr.onreadystatechange = function () {
         console.log(mahasiswa);
     }
 }
+
+xhr.open('GET', 'test.json', true);
+xhr.send();
