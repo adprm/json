@@ -21,7 +21,7 @@ $db->execute();
 
 $student = $db->fetchAll(PDO::FETCH_ASSOC);
 
-// mengambil data array menjadi json
+// mengambil data objek/array menjadi json
 $data = json_encode($student);
 echo $data;
 
