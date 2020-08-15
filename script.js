@@ -1,13 +1,19 @@
-// mengubah objek menjadi json
-let mahasiswa = {
-    nama: "Aditiya Permana",
-    nim: "151098654",
-    email: 'adit@mail.com'
-};
+// mengubah objek menjadi  dengan fungsi stryngify
+let mahasiswa = [{
+        nama: "Aditiya Permana",
+        nim: "151098654",
+        email: 'adit@mail.com'
+    },
+    {
+        nama: "Aditiya Permana",
+        nim: "151098654",
+        email: 'adit@mail.com'
+    }
+];
 
 console.log(JSON.stringify(mahasiswa));
 
-// json ke objek
+// json ke objek/array dengan fungsi parse
 let xhr = new XMLHttpRequest();
 
 xhr.onreadystatechange = function () {
@@ -20,3 +26,8 @@ xhr.onreadystatechange = function () {
 
 xhr.open('GET', 'test.json', true);
 xhr.send();
+
+// json ke objek atau array dengan jquery
+$.getJSON('test.json', function (data) {
+    console.log(data);
+})
